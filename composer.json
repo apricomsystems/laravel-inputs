@@ -1,0 +1,25 @@
+{
+    "name": "apricomsystems/laravel-inputs",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Apricomsystems\\LaravelInputs\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Apricom Systems",
+            "email": "apricom.systems@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "provider": [
+                "ApricomSystems\\LaravelInputs\\Providers\\InputsServiceProvider"
+            ]
+        }
+    }
+}
